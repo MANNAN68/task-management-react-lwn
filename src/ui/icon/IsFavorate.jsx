@@ -1,6 +1,4 @@
-import React from "react";
-
-const Star = () => {
+const IsFavorate = () => {
   return (
     <>
       <svg
@@ -10,8 +8,8 @@ const Star = () => {
         height="24"
         viewBox="0 0 24 24"
         stroke-width="2"
-        stroke="currentColor"
-        fill="none"
+        stroke="yellow"
+        fill="yellow"
         stroke-linecap="round"
         stroke-linejoin="round"
       >
@@ -22,4 +20,4 @@ const Star = () => {
   );
 };
 
-export default Star;
+export default IsFavorate;
